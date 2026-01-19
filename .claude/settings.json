@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "read_files": true,
+    "write_files": true,
+    "run_commands": true,
+    "create_directories": true
+  },
+  "environment": {
+    "max_iterations": 10,
+    "timeout_seconds": 300,
+    "language": "tr"
+  },
+  "workflow": {
+    "enforce_rules": true,
+    "use_skills": true,
+    "delegate_to_agents": true
+  }
+}
